@@ -1,0 +1,129 @@
+.money-details-list {
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .money-details-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.balance-container {
+  background-color: #ecfccb;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid #84cc16;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.income-container {
+  background-color: #cffafe;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid #06b6d4;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.expenses-container {
+  background-color: #ede9fe;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid #7c3aed;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .balance-container {
+    width: 32%;
+    padding: 14px;
+  }
+
+  .income-container {
+    width: 32%;
+    padding: 14px;
+  }
+
+  .expenses-container {
+    width: 32%;
+    padding: 14px;
+  }
+}
+
+.balance {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+
+.income {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+
+.expenses {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+
+.money-details-image {
+  height: 70px;
+  width: 70px;
+}
+
+.money-info-container {
+  margin-left: 16px;
+}
+
+.text {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #7e858e;
+  margin: 0px;
+}
+
+.money {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #7e858e;
+  margin: 0px;
+  padding-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .money-details-image {
+    height: 62px;
+    width: 62px;
+  }
+
+  .money-info-container {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .text {
+    font-size: 16px;
+  }
+
+  .money-details-image {
+    height: 74px;
+    width: 74px;
+  }
+
+  .money {
+    font-size: 24px;
+  }
+}
